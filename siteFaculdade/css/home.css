@@ -1,0 +1,43 @@
+.corpoHome {
+	margin: 0px;
+}
+.Banner {
+	position:relative;
+	width: 100%;
+}
+.img_banner {
+	margin-top: 3.77em;
+	border-bottom: 1px solid black
+}
+article.sobre {
+	margin-right: 1em;
+	width: 50%;
+	border-bottom: 1px solid black;
+	padding: 0.6em;
+	padding-top: 0px;
+	padding-bottom: 0.3em;
+	margin-bottom: 1em;
+}
+h1.sobre {
+	text-align: center;
+	color: #1c488e;
+	-webkit-margin-before: 0.3em;
+    -webkit-margin-after: 0.3em;
+}
+p.sobre {
+	-webkit-margin-before: 0.6em;
+    -webkit-margin-after: 0.3em;
+	text-align: justify;
+}
+article.comentsAlunos {
+	margin: 1em;
+	margin-top: 0em;
+	text-align: justify;
+}
+h2.comentsAlunos, h3.comentsAlunos {
+	text-align: center;
+	color: #676f7c;
+}
+h3.comentsAlunos {
+	color: #474747;
+}
