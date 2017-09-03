@@ -1,0 +1,19 @@
+.t1{
+ color:purple;	
+}
+.it{
+	font-family:italic;
+	text-align: right;
+	}
+.it:link{
+	color:blue;
+}
+.it:visited{
+	color:green;
+}
+.it:hover{
+	color:pink;
+}
+.it:active{
+	color:gold;
+}
