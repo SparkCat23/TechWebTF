@@ -1,0 +1,14 @@
+h1.noticia {
+	text-align: center;
+	color: #1c488e;
+	-webkit-margin-before: 0.3em;
+    -webkit-margin-after: 0.3em;
+	font-family:helvetica;
+}
+p.texto {
+	-webkit-margin-before: 0.6em;
+    -webkit-margin-after: 0.3em;
+	text-aling: center;
+	font-family:Arial;
+	font-size: 17px; 
+}
