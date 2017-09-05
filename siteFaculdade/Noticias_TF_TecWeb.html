@@ -1,65 +1,87 @@
 <!DOCTYPE html>
-<html lang = "pt-BR" style="font-family:arial">
+<html lang = "pt-BR">
 <head>
-	<link rel="icon" href="Imagens/icone.ico" type="image/x-icon" />
-	<meta charset="UTF-8">
-	<title>Notícias</title>
+	<link rel="icon" href="img/icone.ico" type="image/x-icon" />
+	<link rel = "stylesheet" href = "css/site.css"/>
+	<link rel = "stylesheet" href = "css/noticias.css"/>
+	<meta charset = "UTF-8"/>
+	<meta name = "Author" Value = "Daniel Nunes"/>
+	<title>Faculdade Impacta</title>
 </head>
-<body>
-	<header style = "background-color:#3333ff">
-		<nav border = "20">
-			<a href = "Home_TF_TecWeb.html" title = "Logo Faculdade Impacta"><img src = "Imagens/logo-novo.png"
-			alt = "Logo e link para a home" style = "color:#ffffff" width="200" height="60"/></a>
-			<a href = "ListaCurso_TF_TecWeb.html" style = "color:#ffffff"><strong>Lista de Cursos</strong><a/> 
-			<a href = "detalheCurso_TF_TecWeb.html" style = "color:#ffffff"><strong>Detalhe de Curso</strong><a/>
-			<a href = "Disciplinas_TF_TecWeb.html" style = "color:#ffffff"><strong>Disciplina</strong><a/>
-			<a href = "Noticias_TF_TecWeb.html" style = "color:#ffffff"><strong>Notícias</strong><a/>
+<body class = "corpoHome">
+	<header>
+		<nav class = "menu">
+		<a class = "link" href = "Home_TF_TecWeb.html" title = "Logo Faculdade Impacta">
+		<img class = "img_logo" src = "img/logo-novo.png" alt = "Logo e link para a home"/></a>
+			<div class = "menuhidden" >
+			<img src = "img/menu-icon-8.png" class="menuIcon"/>
+			<ul class = "dropmenu">
+				<li><a class = "link" href = "ListaCurso_TF_TecWeb.html" >Lista de Cursos</a></li>
+				<li><a class = "link" href = "detalheCurso_TF_TecWeb.html" >Detalhe de Curso</a/></li>
+				<li><a class = "link" href = "Disciplinas_TF_TecWeb.html" >Disciplina</a></li>
+				<li><a class = "link" href = "Noticias_TF_TecWeb.html" >Notícias</a></li>
+			</ul>
+			</div>
 		</nav>
 	</header>
-  <body>
   <section>
-	<h1 style = "text-align:Center">Notícias</h1>
-	<center>
+	<h1 class = "noticia">Notícias</h1>
+	
 		<h2>Batalhas de Robos na Impacta.</h2>
-		<p>A 1.ª Batalha de Robôs da Faculdade Impacta foi um sucesso! <br/>
+		<center><p class = "texto">A 1.ª Batalha de Robôs da Faculdade Impacta foi um sucesso! <br/>
 		Realizada pelos cursos de Análise e Desenvolvimento de Sistemas, <br/>
 		Banco de Dados, Gestão da TI, Redes de Computadores e Sistemas <br/>
 		de Informação, nossos alunos desenvolveram robôs para uma competição <br/>
 		cheia de emoção, tecnologia e aprendizado, em que o objetivo era <br/>
 		estourar o balão do robô do adversário.</br> 
-		#EuSouImpacta #AtitudeImpacta #FaculdadeImpacta #InternetDasCoisas #InternetOfThings #IOT</p>
+		#EuSouImpacta #AtitudeImpacta #FaculdadeImpacta #InternetDasCoisas #InternetOfThings #IOT</p></center>
 		
-		<img src="Imagens\img1_Noticia.png" height="350px" width="1330px" alt="teste2">
-	</center>	
-		<footer style = "background-color:#d9d9d9">
-		<nav>
-					<h3>SIGA A IMPACTA<h3>
+		<center><img src="img\img2.jpeg" height="350px" width="350px" alt="teste2"></center>
+		
+		
+		
+		<h2>Perfil comportamental: o que é e os</br>
+		benefícios de usá-lo na sua empresa.</h2>
+		<center><p class = "texto">Cada pessoa é única e possui sua própria forma de agir nas mais variadas situações.</br>
+								   Isso se deve a influências externas que contribuem na formação do</br>
+								   caráter de cada uma, como a cultura, o tipo de criação e o ambiente.</br>
+
+								   Compreender o próximo e respeitar essas diferenças é essencial para melhorar a</br>
+								   convivência e garantir a harmonia em qualquer ambiente de trabalho.</br>
+								   Afinal, um setor empresarial agradável garante mais afinidade e produtividade.</br>
+
+								   No entanto, para obter sucesso nisso, é necessário realizar um estudo de perfil comportamental e colocá-lo em prática</br> 
+								   na empresa — ou melhor, é preciso saber identificar o perfil de cada</br>
+								   colaborador para definir em quais funções eles se adéquam mais.</br></p></center>
+		
+		
+		<center><img src="img\img3.jpg" height="250px" width="550px" alt="Estudo"></center>
+	
+		<footer>
+		<div class = "sigaImpacta">
+			<h3 class = "sigaImpacta">SIGA A IMPACTA</h3>
+					<nav class = "siga" >
+					<a class = "link" href = "https://twitter.com/facimpacta" 
+					target = "Blank" title = "twitter"><img src = "img/twitter.png"
+					alt = "link para pagina da impacta no twitter" /></a>
 					
-					<a href = "https://twitter.com/facimpacta" 
-					target = "Blank" title = "twitter"><img src = "Imagens/twitter.png"
-					alt = "link para pagina da impacta no twitter" 
-					style = "color:#ffffff" width="27" height="27"/></a>
+					<a class = "link" href = "https://www.youtube.com/user/GrupoImpacta" 
+					target = "Blank" title = "youtube"><img src = "img/youtube.png"
+					alt = "link para pagina da impacta no youtube"/></a>
 					
-					<a href = "https://www.youtube.com/user/GrupoImpacta" 
-					target = "Blank" title = "youtube"><img src = "Imagens/youtube.png"
-					alt = "link para pagina da impacta no youtube" 
-					style = "color:#ffffff" width="27" height="27"/></a>
+					<a class = "link" href = "https://www.facebook.com/FacImpacta/" 
+					target = "Blank" title = "facebook"><img src = "img/facebook.png"
+					alt = "link para pagina da impacta no facebook"/></a>
 					
-					<a href = "https://www.facebook.com/FacImpacta/" 
-					target = "Blank" title = "facebook"><img src = "Imagens/facebook.png"
-					alt = "link para pagina da impacta no facebook" 
-					style = "color:#ffffff" width="27" height="27"/></a>
+					<a class = "link" href = "https://www.instagram.com/facimpacta/" 
+					target = "Blank" title = "instagram"><img src = "img/instagram.png"
+					alt = "link para pagina da impacta no instagram"/></a>
 					
-					<a href = "https://www.instagram.com/facimpacta/" 
-					target = "Blank" title = "instagram"><img src = "Imagens/instagram.png"
-					alt = "link para pagina da impacta no instagram" 
-					style = "color:#ffffff" width="27" height="27"/></a>
-					
-					<a href = "https://www.linkedin.com/edu/faculdade-impacta-tecnologia-161006" 
-					target = "Blank" title = "linkedin"><img src = "Imagens/linkedin.png"
-					alt = "link para pagina da impacta no linkedin" 
-					style = "color:#ffffff" width="27" height="27"/></a>
-		</nav>
-	</footer>	
+					<a class = "link" href = "https://www.linkedin.com/edu/faculdade-impacta-tecnologia-161006" 
+					target = "Blank" title = "linkedin"><img src = "img/linkedin.png"
+					alt = "link para pagina da impacta no linkedin"/></a>
+					</nav>
+		</div>
+	</footer>
 	</body>
   </html>
