@@ -1,6 +1,9 @@
 html {
 	font-family: arial;
 }
+body.corpo {
+	margin: 0px;
+}
 .img_logo {
 	width: 10em;
 	height: 3em;
