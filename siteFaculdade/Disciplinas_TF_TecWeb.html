@@ -2,29 +2,52 @@
 <html lang = "pt-BR" style="font-family:arial">
 <head>
 	<link rel="icon" href="Imagens/icone.ico" type="image/x-icon" />
+	<link rel = "stylesheet" href = "css/site.css"/>
+	<link rel = "stylesheet" href = "css/home.css"/>
+	<link rel = "stylesheet" href = "css/disc.css"/>
 	<meta charset = "UTF-8"/>
-	<title>Disciplinas</title>
+	<meta name = "Author" Value = "Gustavo Zaik"/>
+	<title>Faculdade Impacta</title>
 </head>
 <body>
-	<header style = "background-color:#3333ff">
-		<nav border = "20">
-			<a href = "Home_TF_TecWeb.html" title = "Logo Faculdade Impacta"><img src = "Imagens/logo-novo.png"
-			alt = "Logo e link para a home" style = "color:#ffffff" width="200" height="60"/></a>
-			<a href = "ListaCurso_TF_TecWeb.html" style = "color:#ffffff"><strong>Lista de Cursos</strong><a/> 
-			<a href = "detalheCurso_TF_TecWeb.html" style = "color:#ffffff"><strong>Detalhe de Curso</strong><a/>
-			<a href = "Disciplinas_TF_TecWeb.html" style = "color:#ffffff"><strong>Disciplina</strong><a/>
-			<a href = "Noticias_TF_TecWeb.html" style = "color:#ffffff"><strong>Notícias</strong><a/>
+	<header>
+		<nav class = "menu">
+			<a class = "link" href = "Home_TF_TecWeb.html" title = "Logo Faculdade Impacta">
+			<img class = "img_logo" src = "Imagens/logo-novo.png" alt = "Logo e link para a home"/></a>
+			<div class = "menuhidden" >
+				<img src = "Imagens/menu-icon-8.png" class="menuIcon"/>
+				<ul class = "dropmenu">
+					<li><a class = "link" href = "ListaCurso_TF_TecWeb.html" >Lista de Cursos</a></li>
+					<li><a class = "link" href = "detalheCurso_TF_TecWeb.html" >Detalhe de Curso</a/></li>
+					<li><a class = "link" href = "Disciplinas_TF_TecWeb.html" >Disciplina</a></li>
+					<li><a class = "link" href = "Noticias_TF_TecWeb.html" >Notícias</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>
-	<h1>Disciplinas</h1>
-	<p></p>
-			<div id="analise">
+	</br>
+	</br>
+	</br>
+	</br>
+	<section>
+		<center>
+			<article class = "disciplinas">
+				<h1 class = "disciplinas">Disciplinas</h1>
+				<p class = "disciplinas" >Aulas preparadas por professores experientes,
+				apoiadores e atuantes no mercado com conteúdo que vai além do conceitual
+				e com questões práticas.</p>
+			</article>
+		</center>
+	
+		<div id="analise">
+			<h3 class = "comentsAlunos">Análise e Desenvolvimento de Sistemas</h3>
+			<center>
 				<table border="1">
-					<tr>
+					<tr class="linelgrey">
 						<th colspan="7">Análise e Desenvolvimento de Sistemas</th>
 					</tr>
-					<tr>
-						<td height="70">1° Sem.</td>
+					<tr >
+						<td class = "italico" height="70">1° Sem.</td>
 						<td height="70">Comunicação e Expressão</td>
 						<td height="70">Banco de Dados</td>
 						<td height="70">IOT</td>
@@ -33,7 +56,7 @@
 						<td height="70">Matematica Aplicada</td>
 					</tr>
 					<tr>
-						<td height="70">2° Sem.</td>
+						<td class = "italico" height="70">2° Sem.</td>
 						<td height="70">DevOps</td>
 						<td height="70">Eng. Software</td>
 						<td height="70">Gestão de projetos</td>
@@ -42,17 +65,20 @@
 						<td height="70">Tecnologia WEB</td>
 					</tr>
 				</table>
-			</div>
+			</center>
+		</div>
 			
-			</br>
+		</br>
 			
-			<div id="adm">
+		<div id="adm">
+			<h3 class = "comentsAlunos">Administração</h3>
+			<center>
 				<table border="1">
-					<tr>
+					<tr class="linelgrey">
 						<th colspan="7">Administração</th>
 					</tr>
 					<tr>
-						<td height="70">1° Sem.</td>
+						<td class = "italico" height="70">1° Sem.</td>
 						<td height="70">Comunicação e Expressão</td>
 						<td height="70">Fundamentos da Administração</td>
 						<td height="70">Macroeconomia</td>
@@ -61,7 +87,7 @@
 						<td height="70">Pensamento Critico e Etica</td>
 					</tr>
 					<tr>
-						<td height="70">2° Sem.</td>
+						<td class = "italico" height="70">2° Sem.</td>
 						<td height="70">Analise Exploratoria</td>
 						<td height="70">Calculo</td>
 						<td height="70">Contabilidade</td>
@@ -70,17 +96,20 @@
 						<td height="70">Sociologia e Politica</td>
 					</tr>
 				</table>
-			</div>
-			
-			</br>
-			
-			<div id="bancoDeDados">
+			</center>
+		</div>
+		
+		</br>
+		
+		<div id="bancoDeDados">
+			<h3 class = "comentsAlunos">Banco de Dados</h3>
+			<center>
 				<table border="1">
-					<tr>
+					<tr class="linelgrey">
 						<th colspan="7">Banco de Dados</th>
 					</tr>
 					<tr>
-						<td height="70">1° Sem.</td>
+						<td class = "italico" height="70">1° Sem.</td>
 						<td height="70">Comunicação e Expressão</td>
 						<td height="70">Fundamentos de Banco de Dados</td>
 						<td height="70">IOT</td>
@@ -89,7 +118,7 @@
 						<td height="70">Matematica Aplicada</td>
 					</tr>
 					<tr>
-						<td height="70">2° Sem.</td>
+						<td class = "italico" height="70">2° Sem.</td>
 						<td height="70">Linguagem SQL</td>
 						<td height="70">DevOps</td>
 						<td height="70">Analise Exploratoria</td>
@@ -98,17 +127,20 @@
 						<td height="70">Gestão de Projetos</td>
 					</tr>
 				</table>
-			</div>
-			
-			</br>
-			
-			<div id="tecnologiaInfo">
+			</center>
+		</div>
+		
+		</br>
+		
+		<div id="tecnologiaInfo">
+			<h3 class = "comentsAlunos">Gestão de Tecnologia da Informação</h3>
+			<center>
 				<table border="1">
-					<tr>
+					<tr class="linelgrey">
 						<th colspan="7">Gestão de Tecnologia da Informação</th>
 					</tr>
 					<tr>
-						<td height="70">1° Sem.</td>
+						<td class = "italico" height="70">1° Sem.</td>
 						<td height="70">Comunicação e Expressão</td>
 						<td height="70">Fundamentos de Banco de Dados</td>
 						<td height="70">IOT</td>
@@ -117,7 +149,7 @@
 						<td height="70">Matematica Aplicada</td>
 					</tr>
 					<tr>
-						<td height="70">2° Sem.</td>
+						<td class = "italico" height="70">2° Sem.</td>
 						<td height="70">Linguagem SQL</td>
 						<td height="70">DevOps</td>
 						<td height="70">Analise Exploratoria</td>
@@ -126,17 +158,20 @@
 						<td height="70">Gestão de Projetos</td>
 					</tr>
 				</table>
-			</div>
-			
-			</br>
-			
-			<div id="jogosDigitais">
+			</center>
+		</div>
+		
+		</br>
+		
+		<div id="jogosDigitais">
+			<h3 class = "comentsAlunos">Jogos Digitais</h3>
+			<center>
 				<table border="1">
-					<tr>
+					<tr class="linelgrey">
 						<th colspan="7">Jogos Digitais</th>
 					</tr>
 					<tr>
-						<td height="70">1° Sem.</td>
+						<td class = "italico" height="70">1° Sem.</td>
 						<td height="70">Arte 2D</td>
 						<td height="70">Desenho e Concept Art</td>
 						<td height="70">Design de Jogos I</td>
@@ -145,7 +180,7 @@
 						<td height="70">Introdução aos Jogos Digitais</td>
 					</tr>
 					<tr>
-						<td height="70">2° Sem.</td>
+						<td class = "italico" height="70">2° Sem.</td>
 						<td height="70">Ambiente de Desenvolvimento de Jogos Digitais</td>
 						<td height="70">Arte 3D para Jogos Digitais</td>
 						<td height="70">Design de Jogos II</td>
@@ -154,17 +189,20 @@
 						<td height="70">Programação para Jogos Digitais I</td>
 					</tr>
 				</table>
-			</div>
-			
-			</br>
-			
-			<div id="processos">
+			</center>
+		</div>
+		
+		</br>
+		
+		<div id="processos">
+			<h3 class = "comentsAlunos">Processos gerenciais</h3>
+			<center>
 				<table border="1">
-					<tr>
+					<tr class="linelgrey">
 						<th colspan="7">Processos gerenciais</th>
 					</tr>
 					<tr>
-						<td height="70">1° Sem.</td>
+						<td class = "italico" height="70">1° Sem.</td>
 						<td height="70">Comunicação e Expressão</td>
 						<td height="70">Fundamentos da Administração</td>
 						<td height="70">Macroeconomia</td>
@@ -173,7 +211,7 @@
 						<td height="70">Pensamento Crítico e Ética</td>
 					</tr>
 					<tr>
-						<td height="70">2° Sem.</td>
+						<td class = "italico" height="70">2° Sem.</td>
 						<td height="70">Análise Exploratória de Dados</td>
 						<td height="70">Cálculo</td>
 						<td height="70">Contabilidade Financeira</td>
@@ -182,17 +220,20 @@
 						<td height="70">Sociologia e Política</td>
 					</tr>
 				</table>
-			</div>
-			
-			</br>
-			
-			<div id="multimidia">
+			</center>
+		</div>
+		
+		</br>
+		
+		<div id="multimidia">
+			<h3 class = "comentsAlunos">Produção multimídia</h3>
+			<center>
 				<table border="1">
-					<tr>
+					<tr class="linelgrey">
 						<th colspan="7">Produção multimídia</th>
 					</tr>
 					<tr>
-						<td height="70">1° Sem.</td>
+						<td class = "italico" height="70">1° Sem.</td>
 						<td height="70">Comunicação e Expressão</td>
 						<td height="70">Fundamentos da Administração</td>
 						<td height="70">Macroeconomia</td>
@@ -201,7 +242,7 @@
 						<td height="70">Pensamento Crítico e Ética</td>
 					</tr>
 					<tr>
-						<td height="70">2° Sem.</td>
+						<td class = "italico" height="70">2° Sem.</td>
 						<td height="70">Análise Exploratória de Dados</td>
 						<td height="70">Cálculo</td>
 						<td height="70">Contabilidade Financeira</td>
@@ -210,17 +251,20 @@
 						<td height="70">Sociologia e Política</td>
 					</tr>
 				</table>
-			</div>
-			
-			</br>
-			
-			<div id="redes">
+			</center>
+		</div>
+		
+		</br>
+		
+		<div id="redes">
+			<h3 class = "comentsAlunos">Redes de Computadores</h3>
+			<center>
 				<table border="1">
-					<tr>
-						<th colspan="7">Redes de Computadores</th>
+					<tr class="linelgrey">
+						<th colspan="8">Redes de Computadores</th>
 					</tr>
 					<tr>
-						<td height="70">1° Sem.</td>
+						<td class = "italico" height="70">1° Sem.</td>
 						<td height="70">Administração de Redes e Sistemas</td>
 						<td height="70">Arquitetura de Redes de Computadores</td>
 						<td height="70">Cabeamento Estruturado</td>
@@ -230,7 +274,7 @@
 						<td height="70">Programação para Redes</td>
 					</tr>
 					<tr>
-						<td height="70">2° Sem.</td>
+						<td class = "italico" height="70">2° Sem.</td>
 						<td height="70">Administração de Redes e Sistemas Operacionais Livres</td>
 						<td height="70">Ambiente de Desenvolvimento e Operação - DevOps</td>
 						<td height="70">Gestão de Projetos</td>
@@ -240,17 +284,20 @@
 						<td height="70">Segurança em Redes e Infraestrutura</td>
 					</tr>
 				</table>
-			</div>
-			
-			</br>
-			
-			<div id="sistemasInfo">
+			</center>
+		</div>
+		
+		</br>
+		
+		<div id="sistemasInfo">
+			<h3 class = "comentsAlunos">Sistemas de Informação</h3>
+			<center>
 				<table border="1">
-					<tr>
+					<tr class="linelgrey">
 						<th colspan="7">Sistemas de Informação</th>
 					</tr>
 					<tr>
-						<td height="70">1° Sem.</td>
+						<td class = "italico" height="70">1° Sem.</td>
 						<td height="70">Comunicação e Expressão</td>
 						<td height="70">Banco de Dados</td>
 						<td height="70">IOT</td>
@@ -259,7 +306,7 @@
 						<td height="70">Matematica Aplicada</td>
 					</tr>
 					<tr>
-						<td height="70">2° Sem.</td>
+						<td class = "italico" height="70">2° Sem.</td>
 						<td height="70">DevOps</td>
 						<td height="70">Eng. Software</td>
 						<td height="70">Gestão de projetos</td>
@@ -268,37 +315,34 @@
 						<td height="70">Tecnologia WEB</td>
 					</tr>
 				</table>
-			</div>
-
-		<footer style = "background-color:#d9d9d9">
-		<nav>
-					<h3>SIGA A IMPACTA<h3>
-					
-					<a href = "https://twitter.com/facimpacta" 
+			</center>
+		</div>
+	</section>
+	<footer>
+		<div class = "sigaImpacta">
+			<h3 class = "sigaImpacta">SIGA A IMPACTA</h3>
+					<nav class = "siga" >
+					<a class = "link" href = "https://twitter.com/facimpacta" 
 					target = "Blank" title = "twitter"><img src = "Imagens/twitter.png"
-					alt = "link para pagina da impacta no twitter" 
-					style = "color:#ffffff" width="27" height="27"/></a>
+					alt = "link para pagina da impacta no twitter" /></a>
 					
-					<a href = "https://www.youtube.com/user/GrupoImpacta" 
+					<a class = "link" href = "https://www.youtube.com/user/GrupoImpacta" 
 					target = "Blank" title = "youtube"><img src = "Imagens/youtube.png"
-					alt = "link para pagina da impacta no youtube" 
-					style = "color:#ffffff" width="27" height="27"/></a>
+					alt = "link para pagina da impacta no youtube"/></a>
 					
-					<a href = "https://www.facebook.com/FacImpacta/" 
+					<a class = "link" href = "https://www.facebook.com/FacImpacta/" 
 					target = "Blank" title = "facebook"><img src = "Imagens/facebook.png"
-					alt = "link para pagina da impacta no facebook" 
-					style = "color:#ffffff" width="27" height="27"/></a>
+					alt = "link para pagina da impacta no facebook"/></a>
 					
-					<a href = "https://www.instagram.com/facimpacta/" 
+					<a class = "link" href = "https://www.instagram.com/facimpacta/" 
 					target = "Blank" title = "instagram"><img src = "Imagens/instagram.png"
-					alt = "link para pagina da impacta no instagram" 
-					style = "color:#ffffff" width="27" height="27"/></a>
+					alt = "link para pagina da impacta no instagram"/></a>
 					
-					<a href = "https://www.linkedin.com/edu/faculdade-impacta-tecnologia-161006" 
+					<a class = "link" href = "https://www.linkedin.com/edu/faculdade-impacta-tecnologia-161006" 
 					target = "Blank" title = "linkedin"><img src = "Imagens/linkedin.png"
-					alt = "link para pagina da impacta no linkedin" 
-					style = "color:#ffffff" width="27" height="27"/></a>
-		</nav>
+					alt = "link para pagina da impacta no linkedin"/></a>
+					</nav>
+		</div>
 	</footer>
 </body>
 </html>
