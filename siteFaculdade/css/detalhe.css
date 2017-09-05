@@ -1,0 +1,42 @@
+.tblContainer{
+	margin-top:4em;
+}
+
+.tbl{
+	font-size: 1em;
+	border-collapse: collapse;
+	text-align:justify;
+}
+br{
+	line-height:150%;
+}
+.tblTitle{
+	background-color: #00a6e1;
+	color: white;
+	padding:1em;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+
+tr.tblLine{
+	background-color: #f2f2f2;
+}
+
+tr.tblLine:nth-child(odd){
+	border-right: 1px solid white;
+	background-color: #d4d4d4;
+}
+
+tr:hover,tr.tblLine:nth-child(odd):hover{
+	background-color: #32c9ff;
+	transition:0.5s;
+}
+
+.tblCell{
+	padding:0.5em;
+}
+
+td.tblCell:first-child{
+	text-align:left;
+}
