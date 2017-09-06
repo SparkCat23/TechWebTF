@@ -15,6 +15,9 @@ p.texto {
 
 p.img {
 
-text-align: center;
+	text-align: center;
 	
+}
+.margin {
+	margin: 1em;
 }
