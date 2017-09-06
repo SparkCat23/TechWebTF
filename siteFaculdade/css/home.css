@@ -21,11 +21,11 @@ h1.sobre {
 	text-align: center;
 	color: #1c488e;
 	-webkit-margin-before: 0.3em;
-    -webkit-margin-after: 0.3em;
+	-webkit-margin-after: 0.3em;
 }
 p.sobre {
 	-webkit-margin-before: 0.6em;
-    -webkit-margin-after: 0.3em;
+	-webkit-margin-after: 0.3em;
 	text-align: justify;
 }
 article.comentsAlunos {
