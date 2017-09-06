@@ -7,12 +7,14 @@ h1.noticia {
 }
 p.texto {
 	-webkit-margin-before: 0.6em;
-    -webkit-margin-after: 0.3em;
-	text-aling: center;
+        -webkit-margin-after: 0.3em;
+	text-align: center;
 	font-family:Arial;
 	font-size: 17px; 
 }
-.margin {
-	margin-top: 5em;
-	margin-left: 1em;
+
+p.img {
+
+text-align: center;
+	
 }
