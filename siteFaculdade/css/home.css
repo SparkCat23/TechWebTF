@@ -4,31 +4,36 @@
 }
 .img_banner {
 	margin-top: 3.77em;
-	border-bottom: 1px solid black
 }
 article.sobre {
-	margin-right: 1em;
-	width: 50%;
-	border-bottom: 1px solid black;
+	display: grid;
+	grid-template: 10% 1fr / 30% 40% 30%;
 	padding: 0.6em;
 	padding-top: 0px;
-	padding-bottom: 0.3em;
 	margin-bottom: 1em;
-	text-align: center;
-	margin-left: 20em;
 }
 h1.sobre {
+	display: grid;
+	grid-row-start: 1;
+	grid-column-start: 2;
 	text-align: center;
 	color: #1c488e;
 	-webkit-margin-before: 0.3em;
 	-webkit-margin-after: 0.3em;
 }
 p.sobre {
+	display: grid;
 	-webkit-margin-before: 0.6em;
 	-webkit-margin-after: 0.3em;
+	grid-row-start: 2;
+	grid-column-start: 2;
+	border-bottom: 1px solid black;
+	padding-bottom: 0.3em;
 	text-align: justify;
 }
 article.comentsAlunos {
+	display: grid;
+	grid-template: 10% 10% 35% 10% 35% / 1fr;
 	margin: 1em;
 	margin-top: 0em;
 	text-align: justify;
@@ -39,4 +44,11 @@ h2.comentsAlunos, h3.comentsAlunos {
 }
 h3.comentsAlunos {
 	color: #474747;
+}
+@media only screen and (max-width: 700px) 
+{
+	article.sobre {
+	display: grid;
+	grid-template: 10% 1fr 10% / 5% 90% 5%; 
+	}
 }
