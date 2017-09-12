@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 .Banner {
 	position:relative;
 	width: 100%;
@@ -6,7 +9,7 @@
 	display: none;
 }
 .img_banner {
-	margin-top: 3.77em;
+	margin-top: 3.53em;
 }
 article.sobre {
 	display: grid;
