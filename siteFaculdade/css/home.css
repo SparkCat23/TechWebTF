@@ -2,6 +2,9 @@
 	position:relative;
 	width: 100%;
 }
+.BannerCell {
+	display: none;
+}
 .img_banner {
 	margin-top: 3.77em;
 }
@@ -45,10 +48,19 @@ h2.comentsAlunos, h3.comentsAlunos {
 h3.comentsAlunos {
 	color: #474747;
 }
-@media only screen and (max-width: 700px) 
+@media only screen and (max-width: 480px) 
 {
 	article.sobre {
-	display: grid;
-	grid-template: 10% 1fr 10% / 5% 90% 5%; 
+		display: grid;
+		grid-template: 10% 1fr 10% / 5% 90% 5%; 
+	}
+	.Banner {
+		display: none;
+	}
+	.BannerCell {
+		display: block;
+		position: relative;
+		width: 100%;
+		margin-top: 3.84em;
 	}
 }

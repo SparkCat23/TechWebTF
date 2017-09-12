@@ -87,3 +87,10 @@ h3.sigaImpacta {
 nav.siga {
 	margin-bottom:1em;
 }
+div.copyright {
+	margin: 1em;
+	background-color: #c1c1c1;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
