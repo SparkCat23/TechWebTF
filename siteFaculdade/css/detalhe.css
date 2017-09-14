@@ -1,5 +1,34 @@
+*{
+	box-sizing:border-box;
+}
+
 .tblContainer{
 	margin-top:4em;
+	display: flex;
+	flex-direction:column;
+	
+}
+
+.heads{
+	display:flex;
+	align-content: stretch;
+}
+
+.itmCur{
+	flex: 1;
+}
+
+.itmPer{
+	flex: 1;
+}
+
+.itmDur{
+	flex: 1;
+}
+
+div.itmObj{
+	flex: 9;
+	text-align: justify;
 }
 
 .tbl{
@@ -10,7 +39,7 @@
 br{
 	line-height:150%;
 }
-.tblTitle{
+div.tblTitle{
 	background-color: #00a6e1;
 	color: white;
 	padding:1em;
@@ -19,24 +48,25 @@ br{
 }
 
 
-tr.tblLine{
+.tblLine{
 	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: row;
 }
 
-tr.tblLine:nth-child(odd){
+.tblLine:nth-child(odd){
 	border-right: 1px solid white;
 	background-color: #d4d4d4;
 }
 
-tr:hover,tr.tblLine:nth-child(odd):hover{
+.tblLine:hover{
 	background-color: #32c9ff;
 	transition:0.5s;
 }
 
 .tblCell{
 	padding:0.5em;
-}
-
-td.tblCell:first-child{
-	text-align:left;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
