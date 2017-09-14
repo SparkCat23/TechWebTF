@@ -26,8 +26,9 @@
 	flex: 1;
 }
 
-.itmObj{
+div.itmObj{
 	flex: 9;
+	text-align: justify;
 }
 
 .tbl{
@@ -38,7 +39,7 @@
 br{
 	line-height:150%;
 }
-.tblTitle{
+div.tblTitle{
 	background-color: #00a6e1;
 	color: white;
 	padding:1em;
@@ -65,8 +66,7 @@ br{
 
 .tblCell{
 	padding:0.5em;
-}
-
-.tblCell:first-child{
-	text-align:left;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
