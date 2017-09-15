@@ -51,7 +51,7 @@ h2.comentsAlunos, h3.comentsAlunos {
 h3.comentsAlunos {
 	color: #474747;
 }
-@media only screen and (max-width: 480px) 
+@media only screen and (min-width: 320px) and (max-width: 736px)
 {
 	article.sobre {
 		display: grid;
