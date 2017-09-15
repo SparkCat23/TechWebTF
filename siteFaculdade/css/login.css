@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+.formulario {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 50%;
+	margin: 1em;
+	margin-top: 6em;
+}
+.itens {
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+.informs {
+	display: flex;
+	justify-content: flex-end;
+}
+.formLogin {
+	font-size: 11px;
+}
