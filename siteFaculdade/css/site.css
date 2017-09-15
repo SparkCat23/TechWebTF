@@ -70,8 +70,9 @@ a.link:active {
 }
 footer {
 	background-color:#e4e4e4;
+	bottom: 0; 
 	width: 100%;
-	height: 100%;
+	height: 30%;
 }
 div.sigaImpacta {
 	width: 10em; 
@@ -93,4 +94,13 @@ div.copyright {
 	display: flex;
 	justify-content: center;
 	text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 736px)
+{
+	h3.sigaImpacta {
+		display: none;
+	}
+	div.sigaImpacta {
+		padding-top: 1em;
+	}
 }
