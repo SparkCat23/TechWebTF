@@ -70,3 +70,25 @@ div.tblTitle{
 	text-align: center;
 	vertical-align: middle;
 }
+@media only screen and (min-width: 320px) and (max-width: 768px){
+	.heads .itmPer,.heads .itmDur,.heads .itmObj{
+		display:none;
+	}
+	
+	.tblLine .itmPer,.tblLine .itmDur,.tblLine .itmObj{
+		display:none;
+	}
+	
+	.tblLine{
+		background-color: #f2f2f2;
+		display: flex;
+		flex-direction: column;
+		position:relative;
+	}
+	
+	.tblLine:hover div.tblCell{
+		display:flex;
+		z-index: 1;
+	}
+
+}
