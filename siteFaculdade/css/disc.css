@@ -37,20 +37,92 @@ h1.disciplinas {
 p.disciplinas {
 	-webkit-margin-before: 0.6em;
     -webkit-margin-after: 0.3em;
-	text-align: justify;
+	text-align: center;
 	float: center;
 }
 
-tr.linelgrey {
-  background-color: grey;
+tr.linecolor {
+  background-color: #1c488e;
+  color: white;
+}
+
+.tbResponvive {
+	/*width: 100px;
+	height: 100px;*/
+
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid grey;
     text-align: center;
     padding: 0px 20px;
     border-collapse: collapse;
-	width:70%; 
+	width:70%;
     margin-left:15%; 
     margin-right:15%;
+	border-spacing: 0;
+    font-family: arial;
+}
+
+.tabTitle {
+	margin: 1em;
+	margin-top: 0em;
+	text-align: center;
+	color: #1c488e;
+}
+
+@media screen and (max-width: 800px) {
+
+	td, tr , th{ 
+		display: block;
+		border: none;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 6px;
+		position: relative;
+	}
+	
+
+	td { 
+		border: none;
+		border-bottom: 1px solid grey;
+		position: relative;
+		padding: 0; 
+	}
+	
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+	
+	table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  .table {
+    border-bottom: #999999 solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .tbResponvive th,
+  .tbResponvive td {
+    border-right: #999999 solid 1px;
+    font-size: 12px;
+    padding: 8px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: center;
+  }	
 }
