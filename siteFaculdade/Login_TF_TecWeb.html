@@ -26,15 +26,21 @@
 		</nav>
 	</header>
 	<section>
-		<form class="formulario" method="post">
-			<div class="itens">Email: </div>
-			<div><input class="informs" name="email" type="email"/></div>
-			<div class="itens">Senha: </div>
-			<div><input class="informs" name="senha" type="password"/></div>
-			<div class="itens"><input name="Lembrar" type="checkbox"/>
-			Lembre-se de mim.</div>
-			<input type="submit" name="enviar" value="Enviar">
-			<a class="formLogin informs" href="" action="">Esqueci a senha.</a>
+		<form class="flexForm" method="POST">
+			<div class="itens">
+				<label for="email" >Email: </label>
+				<input id="email" class="informs" name="email" type="email" required/>
+			</div>
+			<div class="itens">
+				<label for="senha" required>Senha: </label>
+				<input id="senha" class="informs" name="senha" type="password" required/>
+			</div>
+				<input id="lembrar" name="Lembrar" type="checkbox"/>
+				<label for="lembrar">Lembre-se de mim.</label>
+			<div class="itensFinais">
+				<button type="submit">Enviar</button>
+				<a class="formLogin" href="">Esqueci a senha.</a>
+			</div>
 		</form>
 	</section>
 	<footer>
